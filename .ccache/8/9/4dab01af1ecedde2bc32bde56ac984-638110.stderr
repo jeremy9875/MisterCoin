@@ -1,0 +1,4 @@
+leveldb/util/logging.cc: In function 'bool leveldb::ConsumeDecimalNumber(leveldb::Slice*, uint64_t*)':
+leveldb/util/logging.cc:58:40: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+           (v == kMaxUint64/10 && delta > kMaxUint64%10)) {
+                                        ^
